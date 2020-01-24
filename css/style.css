@@ -10,7 +10,7 @@ html,body{
     width: 100%;
     background-image:linear-gradient(to right ,rgba(230,101,135,0.5),
     rgba(240,148,88,0.7)),
-    url(../image/body-bg.jpg);
+    url(../image/asset%201.jpeg);
     background-position:top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,23 +27,53 @@ html,body{
     margin: auto;
     background-image: linear-gradient(rgba(230,101,135,0.5),
     rgba(240,148,88,0.7));
-    overflow: auto;
     padding-left: 15px;
     padding-right: 15px;
 }
-.logo{
+.logo_menu{
+    overflow: auto;
     width: 100%;
     padding: 30px 0px 30px 0px;
+}
+.logo{ 
     float: left;
 }
 .menu_bar{
     float: right;
 }
+.padding1{
+    padding: 100px;
+}
 .center{
     width: 650px;
-    height: 150px;
     margin: auto;
-    position: relative;
-    padding-top: 200px;
-    
+    text-align: center;
+}
+.small-text{
+    margin :auto;
+    color: white;
+}
+.big-text{
+    color: white;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.button{
+    color: white;
+    margin: auto;
+}
+.button-text{
+    align-items: center;
+}
+.radius{
+    border-radius: 20px;
+    border:1px solid;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+}
+.arrow_img{
+    margin-left: 10px;
 }

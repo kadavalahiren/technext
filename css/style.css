@@ -293,80 +293,282 @@ body {
     height: 320px;
     background-image: url(../image/asset%2010.jpeg);
 }
-h5{
+
+h5 {
+    font-size: 16px;
     text-align: center;
     margin: 0px 0px 10px 0px;
 }
-.img_txt{
+
+.img_txt {
     text-align: center;
     margin: auto;
     background-color: white;
 }
-.four_img_txt{
+
+.four_img_txt {
     width: 50%;
     padding: 30px 40px;
-    text-align: center;    
+    text-align: center;
     margin: auto;
     left: 0px;
     right: 0px;
     position: absolute;
     bottom: -5px;
 }
-.sec_five{
+
+.sec_five {
     width: 75%;
     margin: auto;
 }
-.story_div{
-    padding: 90px 0px;
+.bgc_img{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    overflow: auto;
 }
-.container{
+.bgc_color{
+    width: 50%;
+    height: 450px;
+    float: left;
+    background-image: linear-gradient(rgba(230, 101, 135, 0.5), rgba(240, 148, 88, 0.7));
+}
+.bgc_image{
+    width: 50%;
+    height: 450px;
+    background-image: url(../image/story-bg.jpg);background-position: center;
+    float: left;
+}
+.story_div {
+    padding: 85px 0px;
+    position: absolute;
+}
+.container {
     width: 100%;
     overflow: auto;
 }
-.row_align_center{
-    
+.row_align_center {
     text-align: center;
     padding: 0px 15px;
 }
-.col_left{
+.col_left {
     width: 25%;
     padding: 0px 15px;
-    margin:auto;
-    top: 0px
-        bottom: 0px;
+    margin: 89px 0px;
     float: left;
 }
-.col_text{
+.col_text {
     width: 100%;
+    margin: auto;
+    top:0px;
+    bottom: 0px;
     text-align: left;
 }
-h3{
+h3 {
     font-size: 26px;
-    margin: 0px 0px 10px 0px;
-  
+    margin: 0px 0px 10px 0px
 }
-.c_text{
+.c_text {
     display: inline-block;
     font-size: 14px;
 }
-.col_center{
+.col_center {
     width: 50%;
     padding: 0px 15px;
     position: relative;
     float: left
 }
-.story_box{
+.story_box {
     padding: 60px 90px;
     background: #fff;
     border-radius: 3px;
     position: relative;
     text-align: left;
 }
-h6{
+h6 {
     font-size: 16px;
     margin: 0px 0px 15px 0px;
 }
-p{
+
+p {
     font-size: 14px;
     margin: 0px 0px 15px 0px;
+}
+.button{
+    width:120px;
+    height: 40px;
+    padding: 10px;
+    margin: 0px ;
+    position: relative;
+    text-align: center;
+    border-radius: 40px;
+    border: 2px solid;
+    color: white;
+     background-image: linear-gradient(rgba(230, 101, 135, 0.5), rgba(240, 148, 88, 0.7));
+     display: inline-block; 
+}
+.sec_six{
+    width: 75%;
+    margin: auto;
+    padding: 100px 0px;
+    background-color: white;
+}
+.six_text{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+}
+h1{
+    font-size: 24px;
+    text-align: center;
+    margin: 0px;
+}
+.six_txt{
+    font-size: 14px;
+}
+.email{
+    width: 65%;
+    padding: 0px 15px;
+    margin:auto;
+    text-align: center;
+    overflow: auto;
+}
+.e_address{
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px;
+    float: left;  
+}
+a{
+    text-decoration: none;
+}
+.e_button{
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+    float: left;
+}
+.sec_seven{
+    width: 75%;
+    margin: auto;
+    padding: 70px 0px 100px 0px;
+    overflow: auto;
+}
+.pushpin{
+    width: 33.33%;
+    float: left;
+    padding:  30px 0px 0px 0px;
+    overflow: auto;
+
+}
+.pin{
+    width: 15%;
+    padding: 10px;
+    border: 1px white solid;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0px 20px 0px 0px;
+    float: left;
+    
+}
+.pin_image{
+    display: inline-block;
+}
+.address{
+     width: 70%;
+    float: left;
+    color: white;
+    
+}
+.add_text{
+    padding: 20px 0px;
+}
+.earth_item{
+    width: 33.33%;
+    float: left;
+    padding:  30px 0px 0px 0px;
+    overflow: auto;
+
+}
+.earth{
+    width: 15%;
+    padding: 10px;
+    border: 1px white solid;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0px 20px 0px 0px;
+    float: left;
+    
+}
+.earth_image{
+    display: inline-block;
+}
+.phone_img{
+    width: 33.33%;
+    float: left;
+    padding:  30px 0px 0px 0px;
+    overflow: auto;
+
+}
+.phone{
+    width: 15%;
+    padding: 10px;
+    border: 1px white solid;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0px 20px 0px 0px;
+    float: left;
+    
+}
+.phone_image{
+    display: inline-block;
+}
+.span_in_block{
+    display: inline-block;
+}
+.sec_eight{
+    width: 75%;
+    padding: 15px 0px;
+    margin: auto;
+    background: rgba(0,0,0,0.25);
+    overflow: auto;
+}
+.eight_logo{
+   width: 15%;
+   float: left;
+}
+.eight_text{
+    width: 65%;
+    padding: 10px;
+    float: left;
+}
+.social-media{
+    width: 20%;
+    text-align: center;
+    float: left;
+}
+.facebook{
+    display: inline-block;
+    padding: 5px;
+    margin-right: 5px;
+    border:1px white solid;
+}
+.twitter{
+    display: inline-block;
+    padding: 5px;
+    margin-right: 5px;
+    border:1px white solid;
+}
+.behance{
+    display: inline-block;
+    padding: 5px;
+    margin-right: 5px;
+    border:1px white solid;
+}
+.brand{
+    display: inline-block;
+    padding: 5px;
+    margin-right: 5px;
+    border:1px white solid;
 }
